@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/brain.js@2.0.0-beta.23/dist/browser.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Calculadora de IGC (Hombres)</h1>
+        <p>
+            <label for="cintura">Cintura: [cm]</label>
+            <input type="number" id="cintura">
+        </p>
+        <p>
+            <label for="cuello">Cuello: [cm]</label>
+            <input type="number" id="cuello">
+        </p>
+        <p>
+            <label for="altura">Altura: [cm]</label>
+            <input type="number" id="altura">
+        </p>
+        <h2 id="igc"></h2>
+    </div>
+    <script src="engine.js"></script>
+</body>
+
+</html>

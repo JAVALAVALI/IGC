@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+    background: rgb(0, 0, 0);
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #f3f3f3a6;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+input {
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    border: 3px rgb(0, 51, 71) solid;
+    font-size: 3vw;
+}
+
+p {
+    padding: 10px;
+    font-size: 3vw;
+    margin: 5px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        width: 95%;
+        font-size: 5vw;
+    }
+
+    h1,
+    h2 {
+        font-size: 7vw;
+    }
+
+    p,
+    input {
+        font-size: 5.5vw;
+    }
+}
