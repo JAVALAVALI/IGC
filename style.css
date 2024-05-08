@@ -22,7 +22,7 @@ body {
 h1,
 h2 {
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 
 input {
@@ -33,12 +33,12 @@ input {
     background-color: rgb(204, 204, 204);
     color: rgb(0, 0, 0);
     border: 3px rgb(0, 51, 71) solid;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 p {
     padding: 10px;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 5px auto;
 }
 
